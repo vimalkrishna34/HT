@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        *{
+            background-color: black !important;
+        }
+        .navbar-custom {
+            background-color: black;
+        }
+        .navbar-custom .navbar-brand img {
+            height: 80px; /* Adjust the height as needed */
+        }
+        .navbar-custom .nav-link {
+            color: white;
+        }
+        .navbar-custom .nav-link:hover {
+            background-color: #ddd;
+            color: rgb(87, 14, 14);
+        }
+        .content {
+            padding: 20px;
+            color: antiquewhite;
+        }
+        .grid-section {
+            background-color: #333;
+            color: white;
+            padding: 40px 20px;
+        }
+        .grid-section img {
+            max-width: 100%;
+            height: auto;
+        }
+        .grid-section ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .image-container img {
+            object-fit: contain; 
+            height: 800px;
+    }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <a class="navbar-brand" href="#">
+            <img src="pnglog.png" alt="Logo"> <!-- Replace 'logo.png' with your logo file -->
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#know-more">Know More</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content" style="text-align: center;">
+        <h1>Welcome to MONETO_INSIGHT</h1>
+        <p>Use this sight for Financial Management.</p>
+    </div>
+
+    <div class="grid-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="about-removebg-preview.png" alt="Descriptive Image" class="image-container"> <!-- Replace 'image.png' with your image file -->
+                </div>
+                <div class="col-md-6" style="font-family: Verdana, Geneva, Tahom">
+                    <h2>About Moneto-Insight</h2>
+
+                    <li>Who We Are: Moneto-Insight is a cutting-edge financial management platform designed to empower individuals and businesses to take control of their finances with confidence and ease.</li>
+                    <li><b>What We Offer:</b>
+                        <ol>
+                       <li> Personal Finance Management: Track your income, expenses, and savings effortlessly.</li>
+                        <li>Budget Planning: Create, manage, and optimize budgets tailored to your unique financial situation.</li>
+                        <li>Investment Insights: Access expert analysis and tools to manage and grow your investments.</li>
+                        <li>Real-time Analytics: Get real-time updates on your financial health with comprehensive analytics and reporting features.</li>
+                        <li>Goal Setting and Tracking: Set financial goals and monitor your progress with ease.</li></li></ol>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6"> 
+                    <h2>Content Points</h2>
+                    <ul>
+                        <li>Point 1</li>
+                        <li>Point 2</li>
+                        <li>Point 3</li>
+                        <li>Point 4</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                           
+                    <img src="https://images.unsplash.com/photo-1620365744528-88da1e08ac96?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Descriptive Image" class="image-container" > <!-- Replace 'image.png' with your image file -->
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
